@@ -12,7 +12,7 @@
 
 ![the reason that we use 2m: we want to rule out the power 2 for easy calculation](<.gitbook/assets/Screen Shot 2022-06-10 at 2.41.09 PM.png>)
 
-* the function represents the mean of squared error
+* the function represents **the mean of squared error**
 
 
 
@@ -20,8 +20,8 @@
 
 * we want to find the minimum of the function J
 * it is like we are climbing down the mountain, and alpha $$a$$ is the step we take
-* even $$a$$ is fix, the algorithm will gradually decrease alpha for convergence
-  * small $$a$$: take long time to convergse
+* even $$a$$ is fix, the algorithm will **gradually decrease** alpha for convergence
+  * small $$a$$: take long time to converge
   * big $$a$$: we may directly jump over the local minimum and "climb up"
 
 ![](<.gitbook/assets/Screen Shot 2022-06-10 at 2.59.45 PM.png>)
