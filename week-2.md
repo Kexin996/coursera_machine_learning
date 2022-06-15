@@ -15,11 +15,16 @@
 * we use it to **speed up gradient descent ---> each value has the same range**
   * **\*feature scaling\***: rescales the feature so that **-1<= x\_i <= 1**
     * **divided x\_i by range**
-  * **\*mean normalization\***: make the **mean of the input = 0** ---> the numerator will be 0
-    * ![](<.gitbook/assets/Screen Shot 2022-06-14 at 3.20.36 PM.png>)
-    * s\_i can either be **range or standard deviation**
-    * **normal distribution**
-  *
+    * we making the&#x20;
+
+![](<.gitbook/assets/Screen Shot 2022-06-15 at 11.45.32 AM.png>)
+
+* **\*mean normalization\***: make the **mean of the input = 0** ---> the numerator will be 0
+  * ![](<.gitbook/assets/Screen Shot 2022-06-14 at 3.20.36 PM.png>)
+  * s\_i can either be **range or standard deviation**
+  * **normal distribution**
+
+
 
 
 
@@ -48,13 +53,12 @@
 
 * X: matrix, y: vector
 * we just apply some simple linear algebra knowledge to minimize the cost function
-* **no need for feature scaling**
+* **no need for feature scaling of features**
 
-![](<.gitbook/assets/Screen Shot 2022-06-15 at 11.24.19 AM.png>)
+![ ](<.gitbook/assets/Screen Shot 2022-06-15 at 11.24.19 AM.png>)
 
 * if n > **10000**: we go to iterative
 * if (X^T\*T) is not invertible:
   * **linear dependent** ---> singular matrix
   * **too many features**: feature >= data
-    * delete features / use regularization
-    *
+    * delete features / use **regularization**

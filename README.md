@@ -13,8 +13,9 @@
 ![the reason that we use 2m: we want to rule out the power 2 for easy calculation](<.gitbook/assets/Screen Shot 2022-06-10 at 2.41.09 PM.png>)
 
 * the function represents **the mean of squared error**
+* the contour lines of the cost function:
 
-
+![](<.gitbook/assets/Screen Shot 2022-06-15 at 11.57.39 AM.png>)
 
 ## Gradient Descent Algorithm
 
