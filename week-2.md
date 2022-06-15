@@ -43,3 +43,18 @@
 
 
 ## Normal Equation
+
+![](<.gitbook/assets/Screen Shot 2022-06-15 at 11.22.36 AM.png>)
+
+* X: matrix, y: vector
+* we just apply some simple linear algebra knowledge to minimize the cost function
+* **no need for feature scaling**
+
+![](<.gitbook/assets/Screen Shot 2022-06-15 at 11.24.19 AM.png>)
+
+* if n > **10000**: we go to iterative
+* if (X^T\*T) is not invertible:
+  * **linear dependent** ---> singular matrix
+  * **too many features**: feature >= data
+    * delete features / use regularization
+    *
